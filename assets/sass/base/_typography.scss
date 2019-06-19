@@ -1,0 +1,33 @@
+h1 {
+  font-family: $Playfair;
+  font-size: $xx-large;
+  font-weight: $black-italic;
+}
+
+p {
+  font-family: $Roboto;
+  font-size: $medium;
+  font-weight: $light-roboto;
+  padding: 1rem;
+  line-height: 2.3em;
+}
+
+h4 {
+  font-family: $Playfair;
+  font-size: $medium;
+  font-weight: $regular-playfair;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-family: $Playfair;
+  font-size: $x-large;
+  font-style: italic;
+}
+
+h3 {
+  font-family: $Roboto;
+  font-size: $small;
+  color: $Fuzzy-wuzzy;
+}

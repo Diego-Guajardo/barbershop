@@ -1,0 +1,44 @@
+.main {
+  background-image: url("../images/post-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 840px;
+
+  &__title {
+    text-align: center;
+    color: $white;
+    padding: 11rem;
+    font-style: italic;
+    font-weight: $black-italic;
+  }
+}
+
+.about {
+  padding: 1rem;
+
+  &__image {
+    max-width: 100%;
+    padding: 0.25rem;
+    display: inline-block;
+    border-radius: 9rem;
+    height: auto;
+  }
+
+  &__name {
+    font-size: $x-large;
+    display: inline-block;
+    padding: 2rem;
+  }
+
+  &__text {
+    text-align: left;
+    font-size: $small;
+    display: inline-block;
+    padding: 20px;
+  }
+}
+
+.text__red {
+  color: $Fuzzy-wuzzy;
+}
